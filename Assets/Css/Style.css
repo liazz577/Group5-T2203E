@@ -29,6 +29,7 @@
 .col-full{
     width: 100%;
 }
+
 /* main css */
 #main{
     font-family: Arial, Helvetica, sans-serif;
@@ -39,8 +40,8 @@
     left: 0;
     right: 0;
     top: 0;
-    background-color: wheat;
-    height: 46px;
+    background-color: #fcf8f0;
+    height: 60px;
     z-index: 1;
 }
 #nav{
@@ -48,24 +49,24 @@
 }
 #nav > li {
     display: block;
-    float: left;
+    float: right;
     line-height: 46px;
 }
 #nav li a{
-    color: s;
+    color: #001e60;
+    font-weight: bold;
+    font-size: 20px;
     text-decoration: none;
-    display: block;
-    line-height: 22px;
-    padding: 2px 24px;
-    margin: 10px 0;
+    display: inline-block;
+    line-height: 28px;  
+    padding: 16px 24px;
     text-transform: uppercase;
 }
 #nav > li:hover > a{
-    /* background-color: #ccc;
+    background-color: #ccc;
     color: #000;
-    border-bottom: 1px solid red; */
-    text-decoration: underline #009688;
-    transition: all 0.35s ease;
+    /* text-decoration: underline #009688;
+    transition: all 0.35s ease; */
 }
 .subnav{
     position: absolute;
@@ -77,7 +78,7 @@
 #nav .subnav li a{
     color: black;
     min-width: 160px;
-    padding: 8px 16px;
+    padding: 10px 16px;
     text-transform: none;
 }
 #nav .subnav li:hover a{
@@ -91,10 +92,10 @@
     font-size: 13px;
 }
 #header .search-button{
-    color: white;
+    color: #001e60;
     float: right;
-    line-height: 22px;
-    padding: 12px 24px;
+    line-height: 28px;
+    padding: 16px 24px;
 }
 #header .search-icon{
     font-weight: 900;
@@ -104,7 +105,7 @@
 }
 /* slider css */
 #slider{
-    background: url(/Assets/Img/chicago.jpg) top center / cover no-repeat;
+    background: url(/Assets/Img/home_slider_image_1.jpg) top center / cover no-repeat;
     margin-top: 46px;
     padding-top: 50%;
     position: relative;
@@ -112,7 +113,7 @@
 #slider .Text-content{
     position: absolute;
     bottom: 0;
-    color: white;
+    color: black;
     width: 100%;
     text-align: center;
     padding: 32px 0;
