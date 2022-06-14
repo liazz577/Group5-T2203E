@@ -49,7 +49,7 @@
 }
 #nav > li {
     display: block;
-    float: right;
+    float: left;
     line-height: 46px;
 }
 #nav li a{
@@ -78,6 +78,7 @@
 #nav .subnav li a{
     color: black;
     min-width: 160px;
+    line-height: 46px;
     padding: 10px 16px;
     text-transform: none;
 }
@@ -92,20 +93,37 @@
     font-size: 13px;
 }
 #header .search-button{
-    color: #001e60;
-    float: right;
-    line-height: 28px;
-    padding: 16px 24px;
+    
 }
 #header .search-icon{
     font-weight: 900;
+    background-color: #001e60;
+    float: right;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 10px 10px ;
+    margin: 14px 14px;
+    color: #fff;
 }
-#header .search-button:hover{
-    background-color: red;
+#header .search-icon:hover{
+    background-color: #ccc;
+    cursor: pointer;
+    color: #000;
+}
+#header .search-box{
+    position: absolute;
+    float: right;
+    right: 46px;
+    height: 32px;
+    border: 1px solid #ccc;
+    margin-top: 14px;
+    padding: 4px;
+    border-radius: 2px;
+    outline: none;
 }
 /* slider css */
 #slider{
-    background: url(/Assets/Img/home_slider_image_1.jpg) top center / cover no-repeat;
+    background: url(/Assets/Img/home_slider_image_1.jpg ) top center / cover no-repeat ;
     margin-top: 46px;
     padding-top: 50%;
     position: relative;
@@ -188,6 +206,7 @@
 .tour-section{
     background-color: #000;
 }
+/* Place */
 .ticket-list{
     background-color: #fff;
     margin-top: 40px;
