@@ -151,9 +151,7 @@
 }
 
 /* content css */
-#content{
 
-}
 #content .content-section{
     margin-left: auto;
     margin-right: auto;
@@ -183,58 +181,12 @@
     margin: 15px 0;
     font-size: 15px;
 }
-#content .member-list{
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
-#content .member-item{
-    display: block;
-    float: left;
-    float: right;
-    text-align: center;
-    width: 33.3333%;
-}
-#content .member-name{
-    font-size: 15px;
-    line-height: 1.5;
-    margin: 15px 0;
-}
-#content .member-avatar{
-    border-radius: 4px;
-    width: 154px;
-}
+
 .tour-section{
-    background-color: #000;
+    background-color: beige;
 }
 /* Place */
-.ticket-list{
-    background-color: #fff;
-    margin-top: 40px;
-}
-.ticket-list li{
-    color: #757575;
-    font-size: 15px;
-    padding: 11px 16px;
-    border-bottom: 1px solid #ccc;
-    list-style: none;
-}
-.ticket-list .soldout{
-    background-color: red;
-    color: #fff;
-    padding: 3px 4px;
-    margin-left: 16px;
-}
-.ticket-list .quantity{
-    float: right;
-    width: 24px;
-    height: 24px;
-    color: #fff;
-    background-color: #000;
-    line-height: 24px;
-    text-align: center;
-    border-radius: 50%;
-    margin-top: -2px;
-}
+
 .place-list{
     margin: 32px -8px;
     padding-bottom: 32px;
