@@ -20,17 +20,17 @@
         <div id="header">
             <ul id="nav">
                 <li><a href="#">Home</a></li>
+                <li><a href="#Bestseller">Bestseller</a></li>
                 <li><a href="#Bread">Bread</a></li>
                 <li><a href="#Cake">Cake</a></li>
-                <li><a href="#Biscuits">Biscuits</a></li>
-                <li>
-                    <a href="#"><i class="fa-solid fa-bars"></i></a>
+                <li><a href="#Contact">about US</a>
                     <ul class="subnav">
                         <li><a href="#">Store</a></li>
-                        <li><a href="#">Contatct</a></li>
+                        <li><a href="#">Contact</a></li>
                         <li><a href="#">Career</a></li>
                     </ul>
-                </li>                 
+                </li>
+                <li><a href="./Cake.html">Daily Menu</a></li>                 
             </ul>
             <div class="search-button">
                 <input class="search-box" type="text" placeholder="searching...">
@@ -46,82 +46,223 @@
             </div>
         </div>
 
-        <div id="content">
+        <div id="content" class="background">
             <!-- about section -->
-            <div id="Bread" class="content-section">
-                <h2 class="section-heading">The Band</h2>
-                <p class="sub-heading">We love music</p>
+            <div id="Bestseller" class="content-section">
+                <h2 class="section-heading">The Bakery</h2>
+                <p class="sub-heading">More than cakes, we offer an unforgettable experience.</p>
                 <p class="about">
-                    We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Featured Products
                 </p>
-                <div class="member-list">
-                    <div class="member-item">
-                        <p class="member-name">Name</p>
-                        <img src="/Assets/Img/bandmember.jpg" alt="" class="member-avatar">
+                <div class="place-list">
+                    <div class="place-item">
+                        <img src="/Assets/Img/Pound.jpg" alt="" class="place-img">
+                        <div class="place-info">
+                            <h3 class="place-heading">All-Butter Pound Cake</h3>
+                            <p class="place-time">only served in breakfast</p>
+                            <p class="place-discribtion">$68.00</p>
+                            <button class="buy-button"><i class="fa-solid fa-cart-plus"></i>Add to cart</button>
+                        </div>
                     </div>
-                    <div class="member-item">
-                        <p class="member-name">Name</p>
-                        <img src="/Assets/Img/bandmember.jpg" alt="" class="member-avatar">
+                    <div class="place-item">
+                        <img src="/Assets/Img/passionfruitmousse.jpg" alt="" class="place-img">
+                        <div class="place-info">
+                            <h3 class="place-heading">Passion fruit mousse</h3>
+                            <p class="place-time">only on Friday</p>
+                            <p class="place-discribtion">$40.00</p>
+                            <button class="buy-button"><i class="fa-solid fa-cart-plus"></i>Add to cart</button>
+                        </div>
                     </div>
-                    <div class="member-item">
-                        <p class="member-name">Name</p>
-                        <img src="/Assets/Img/bandmember.jpg" alt="" class="member-avatar">
+                    <div class="place-item">
+                        <img src="/Assets/Img/specialcookbook.jpg" alt="" class="place-img">
+                        <div class="place-info">
+                            <h3 class="place-heading">'Cake' by our Chef</h3>
+                            <p class="place-time">limited singed edition</p>
+                            <p class="place-discribtion">$110.00</p>
+                            <button class="buy-button"><i class="fa-solid fa-cart-plus"></i>Add to cart</button>
+                        </div>
                     </div>
                     <div class="clear"></div>
                 </div>
+                <div class="place-list">
+                    <div class="place-item">
+                        <img src="/Assets/Img/TiramisuRaffaeleDiomede.jpg" alt="" class="place-img">
+                        <div class="place-info">
+                            <h3 class="place-heading">Tiramisu</h3>
+                            <p class="place-time">Famous Japanese Cake</p>
+                            <p class="place-discribtion">$100.00</p>
+                            <button class="buy-button"><i class="fa-solid fa-cart-plus"></i>Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="place-item">
+                        <img src="/Assets/Img/mooncakes.jpg" alt="" class="place-img">
+                        <div class="place-info">
+                            <h3 class="place-heading">Moon cakes</h3>
+                            <p class="place-time">famous Vietnamese cake</p>
+                            <p class="place-discribtion">$110.00</p>
+                            <button class="buy-button"><i class="fa-solid fa-cart-plus"></i>Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="place-item">
+                        <img src="../Assets/Img/croquembouche.jpg" alt="" class="place-img">
+                        <div class="place-info">
+                            <h3 class="place-heading">Croquembouche</h3>
+                            <p class="place-time">French special</p>
+                            <p class="place-discribtion">$110.00</p>
+                            <button class="buy-button"><i class="fa-solid fa-cart-plus"></i>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
             </div>
 
             <!-- tour section -->
-            <div id="Cake" class="tour-section">
+            <div id="Bread" class="tour-section">
                 <div class="content-section">
-                    <h2 class="section-heading text-white">Tour date</h2>
-                    <p class="sub-heading text-white">Remember to book your tickets!</p>
-                    <ul class="ticket-list">
-                        <li>September<span class="soldout">Sold out</span></li>
-                        <li>October<span class="soldout">Sold out</span></li>
-                        <li>November<span class="quantity">3</span></li>
-                    </ul>
+                    
                     <!-- place -->
                     <div class="place-list">
+                        <h2 class="section-heading text-white">Bread</h2>
+                        <p class="sub-heading text-white">Vietnamese street food</p>
                         <div class="place-item">
-                            <img src="/Assets/Img/banh 1.jpg" alt="" class="place-img">
+                            <img src="/Assets/Img/chickenteri.jpg" alt="" class="place-img">
                             <div class="place-info">
-                                <h3 class="place-heading">New York</h3>
-                                <p class="place-time">Fri 27 Nov 2016</p>
-                                <p class="place-discribtion">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <a href="#" class="buy-button">Buy ticket</a>
+                                <h3 class="place-heading">Chicken teriyaki</h3>
+                                <p class="place-time">chicken came first</p>
+                                <p class="place-discribtion">$32.00</p>
+                                <button class="buy-button"><i class="fa-solid fa-cart-plus"></i>Add to cart</button>
                             </div>
                         </div>
                         <div class="place-item">
-                            <img src="/Assets/Img/paris.jpg" alt="" class="place-img">
+                            <img src="../Assets/Img/banhmithapcam.jpg" alt="" class="place-img">
                             <div class="place-info">
-                                <h3 class="place-heading">New York</h3>
-                                <p class="place-time">Fri 27 Nov 2016</p>
-                                <p class="place-discribtion">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <a href="#" class="buy-button">Buy ticket</a>
+                                <h3 class="place-heading">Mixed flavors bread</h3>
+                                <p class="place-time">a combined experience</p>
+                                <p class="place-discribtion">$37.00</p>
+                                <button class="buy-button"><i class="fa-solid fa-cart-plus"></i>Add to cart</button>
                             </div>
                         </div>
                         <div class="place-item">
-                            <img src="/Assets/Img/sanfran.jpg" alt="" class="place-img">
+                            <img src="/Assets/Img/banhmixaxiu.jpg" alt="" class="place-img">
                             <div class="place-info">
-                                <h3 class="place-heading">New York</h3>
-                                <p class="place-time">Fri 27 Nov 2016</p>
-                                <p class="place-discribtion">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <a href="#" class="buy-button"> Buy ticket</a>
+                                <h3 class="place-heading">'Char siu' bread</h3>
+                                <p class="place-time">Chinese style babercue</p>
+                                <p class="place-discribtion">$33.00</p>
+                                <button class="buy-button"><i class="fa-solid fa-cart-plus"></i>Add to cart</button>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="place-list">
+                        <div class="place-item">
+                            <img src="/Assets/Img/Banhmipate.jpg" alt="" class="place-img">
+                            <div class="place-info">
+                                <h3 class="place-heading">Pâté bread</h3>
+                                <p class="place-time">with famous goose Pâté</p>
+                                <p class="place-discribtion">$35.00</p>
+                                <button class="buy-button"><i class="fa-solid fa-cart-plus"></i>Add to cart</button>
+                            </div>
+                        </div>
+                        <div class="place-item">
+                            <img src="/Assets/Img/banhmihoian.jpg" alt="" class="place-img">
+                            <div class="place-info">
+                                <h3 class="place-heading">Hoian banh mi</h3>
+                                <p class="place-time">Hoian special</p>
+                                <p class="place-discribtion">$42.00</p>
+                                <button class="buy-button"><i class="fa-solid fa-cart-plus"></i>Add to cart</button>
+                            </div>
+                        </div>
+                        <div class="place-item">
+                            <img src="/Assets/Img/rainbowgrilledcheesesand.jpg" alt="" class="place-img">
+                            <div class="place-info">
+                                <h3 class="place-heading">Rainbow sandwich</h3>
+                                <p class="place-time">rainbow grilled cheese</p>
+                                <p class="place-discribtion">$45.00</p>
+                                <button class="buy-button"><i class="fa-solid fa-cart-plus"></i>Add to cart</button>
                             </div>
                         </div>
                         <div class="clear"></div>
                     </div>
                 </div>
             </div>
+
+            <div id="Cake" class="cake-section ">
+                <div class="content-section ">             
+                    <div class="place-list">
+                        <h2 class="section-heading" >Cake</h2>
+                        <p class="sub-heading ">It's your special day — get out there and celebrate!</p>
+                        <div class="place-item">
+                            <img src="/Assets/Img/redvelvetcake.jpg" alt="" class="place-img">
+                            <div class="place-info">
+                                <h3 class="place-heading">Red velvet</h3>
+                                <p class="place-time">Do u see red?</p>
+                                <p class="place-discribtion">$115.00</p>
+                                <button class="buy-button"><i class="fa-solid fa-cart-plus"></i>Add to cart</button>
+                            </div>
+                        </div>
+                        <div class="place-item">
+                            <img src="/Assets/Img/millionairecake.jpg" alt="" class="place-img">
+                            <div class="place-info">
+                                <h3 class="place-heading">Millionair cake</h3>
+                                <p class="place-time">feel like a millionair yet?</p>
+                                <p class="place-discribtion">$107.00</p>
+                                <button class="buy-button"><i class="fa-solid fa-cart-plus"></i>Add to cart</button>
+                            </div>
+                        </div>
+                        <div class="place-item">
+                            <img src="/Assets/Img/caramelcake.jpg" alt="" class="place-img">
+                            <div class="place-info">
+                                <h3 class="place-heading">Caramel cake</h3>
+                                <p class="place-time">the golden sweetness</p>
+                                <p class="place-discribtion">$103.00</p>
+                                <button class="buy-button"><i class="fa-solid fa-cart-plus"></i>Add to cart</button>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="place-list">
+                        <div class="place-item">
+                            <img src="/Assets/Img/blacknwhite.jpg" alt="" class="place-img">
+                            <div class="place-info">
+                                <h3 class="place-heading">Black & White Cake</h3>
+                                <p class="place-time">where is grey?</p>
+                                <p class="place-discribtion">$115.00</p>
+                                <button class="buy-button"><i class="fa-solid fa-cart-plus"></i>Add to cart</button>
+                            </div>
+                        </div>
+                        <div class="place-item">
+                            <img src="/Assets/Img/gwenchococake.jpg" alt="" class="place-img">
+                            <div class="place-info">
+                                <h3 class="place-heading">Earl's Court Chocolate Cake</h3>
+                                <p class="place-time">Gwendolyn's Famous</p>
+                                <p class="place-discribtion">$42.00</p>
+                                <button class="buy-button"><i class="fa-solid fa-cart-plus"></i>Add to cart</button>
+                            </div>
+                        </div>
+                        <div class="place-item">
+                            <img src="/Assets/Img/RaspberryChampagne.jpg" alt="" class="place-img">
+                            <div class="place-info">
+                                <h3 class="place-heading">Raspberry Champagne Cake</h3>
+                                <p class="place-time">not strawberry</p>
+                                <p class="place-discribtion">$125.00</p>
+                                <button class="buy-button"><i class="fa-solid fa-cart-plus"></i>Add to cart</button>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+
             <!-- contact-section -->
-            <div id="Biscuits" class="content-section">
+            <div id="Contact" class="content-section">
                 <h2 class="section-heading">Contact</h2>
-                <p class="sub-heading">Fan? Drop a note!</p>
-                <div class="row contact-content">
+                <p class="sub-heading">Fan Drop a note!</p>
+                <div class="row contact-contet">
                     <div class="col col-half info">
-                        <p><i class="fa-solid fa-location-dot"></i>Chicago, US</p>
-                        <p><i class="fa-solid fa-phone"></i>Phone: +00 151515</p>
+                        <p><i class="fa-solid fa-location-dot"></i>Hanoi, VN</p>
+                        <p><i class="fa-solid fa-phone"></i>Phone: +84 113</p>
                         <p><i class="fa-solid fa-envelope"></i>Email: mail@mail.com</p>
                     </div>
                     <div class="col col-half">
@@ -191,7 +332,7 @@
                 <a href=""><i class="fa-brands fa-twitter"></i></a>
                 <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
-            <p>Powered by Minh</p>
+            <p></p>
         </div>
     </div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
