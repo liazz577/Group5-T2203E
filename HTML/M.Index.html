@@ -357,21 +357,25 @@
             const modelContainer = document.querySelector('.js-model-container');
             const modelClose = document.querySelector('.js-model-close');
             const modelPay =document.querySelector('.js-pay');
+            //hàm hiện Buybox khi
             function showBuyBox(){
                 model.classList.add('open');
             }
+            //hàm ẩn BuyBox khi click vào x
             function hideBuybox(){
                 model.classList.remove('open');
             }
             function order(){
                 alert('Thank you for order');
             }
+            //vòng lặp quét tất cả các nút để check tín hiệu click
             for (const buyBtn of buyBtns) {
                 buyBtn.addEventListener('click', showBuyBox);
             }
             modelClose.addEventListener('click', hideBuybox);
             model.addEventListener('click', hideBuybox);
             // modelPay.addEventListener('click', order);
+            //phần nổi bọt để khi click vào trong BuyBox nó sẽ ko tắt cửa sổ buybox đi
             modelContainer.addEventListener('click', function(){
                 event.stopPropagation();
             });
