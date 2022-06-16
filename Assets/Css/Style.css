@@ -42,7 +42,7 @@
     top: 0;
     background-color: #fcf8f0;
     height: 60px;
-    z-index: 1;
+    z-index: 2;
 }
 #nav{
     position: relative;
@@ -122,34 +122,11 @@
     outline: none;
 }
 /* slider css */
-#slider{
-    background: url(/Assets/Img/home_slider_image_1.jpg ) top center / cover no-repeat ;
+#sliders{
     margin-top: 46px;
-    padding-top: 50%;
     position: relative;
+    z-index: -1;
 }
-#slider .Text-content{
-    position: absolute;
-    bottom: 0;
-    color: black;
-    width: 100%;
-    text-align: center;
-    padding: 32px 0;
-}
-#slider .text-heading{
-    font-weight: 300    ;
-    line-height: 36px;
-    margin: 10px 0;
-    font-size: 24px;
-    box-sizing: inherit;
-}
-#slider .text-discribtion{
-    font-weight: bolder;
-    font-size: 15px;
-    line-height: 1.5;
-    margin: 15px 0;
-}
-
 /* content css */
 #content{
 
